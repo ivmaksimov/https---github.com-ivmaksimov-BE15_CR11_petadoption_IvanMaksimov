@@ -92,11 +92,11 @@ $user_id=$_SESSION['user'];
             <table class='table'>
                 <tr>
                     <th>Kind</th>
-                    <td><h1><?php echo $data['kind'] ?></h1></td>
+                    <td><h1><?php echo $kind ?></h1></td>
                 </tr>
                 <tr>
                     <th>Name</th>
-                    <td><h1><?php echo $data['name'] ?> </h1></td>
+                    <td><h1><?php echo $name ?> </h1></td>
                 </tr>
                 <tr>
                     <th>Date of Adoption</th>
@@ -105,7 +105,7 @@ $user_id=$_SESSION['user'];
                
                 
                 <tr>
-                  <input type="hidden" name="id" value="<?php echo $data['anim_id'] ?>" />
+                  <input type="hidden" name="id" value="<?php echo $id ?>" />
                     <td><button class='btn btn-success' type="submit">Go</button></td>
                     <td><a href="../index.php"><button class='btn btn-warning' type="button">Home</button></a></td>
                 </tr>

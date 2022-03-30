@@ -28,7 +28,7 @@ if ($result->num_rows > 0) {
             <td>" . $row['email'] . "</td>
             <td>" . $row['status'] . "</td>
             <td><a href='update.php?id=" . $row['user_id'] . "'><button class='btn btn-primary btn-sm' type='button'>Edit</button></a>
-            <a href='delete.php?id=" . $row['user_id'] . "'><button class='btn btn-danger btn-sm' type='button'>Delete</button></a></td>
+            </td>
          </tr>";
     }
 } else {

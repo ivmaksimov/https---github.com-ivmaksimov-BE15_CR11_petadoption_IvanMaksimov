@@ -15,7 +15,7 @@ if (isset($_SESSION["user"])) {
 }
 //if it is a adm it will create a back button to dashboard.php
 if (isset($_SESSION["adm"])) {
-    $backBtn = "dashboard.php";
+    $backBtn = "users_adm.php";
 }
 
 //fetch and populate form

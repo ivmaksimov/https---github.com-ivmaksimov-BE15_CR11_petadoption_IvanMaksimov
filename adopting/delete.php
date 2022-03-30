@@ -108,7 +108,7 @@ mysqli_close($connect);
             <input type="hidden" name="id" value="<?php echo $id ?>" />
             <input type="hidden" name="picture" value="<?php echo $picture ?>" />
             <button class="btn btn-danger" type="submit">Yes, delete it!</button>
-            <a href="../booking_adm.php"><button class="btn btn-warning" type="button">No, go back!</button></a>
+            <a href="../adopt_adm.php"><button class="btn btn-warning" type="button">No, go back!</button></a>
         </form>
     </fieldset>
 </body>
